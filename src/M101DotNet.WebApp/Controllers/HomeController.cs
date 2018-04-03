@@ -15,7 +15,7 @@ namespace M101DotNet.WebApp.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("Showing Home Page");
         }
     }
 }
